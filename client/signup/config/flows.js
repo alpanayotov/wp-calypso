@@ -216,7 +216,7 @@ const flows = {
 	},
 
 	'domain-first': {
-		steps: [ 'domain-only', 'user' ],
+		steps: [ 'domain-only', 'site-or-domain', 'landing-page', 'user' ],
 		destination: getSiteDestination,
 		description: 'An experimental approach for WordPress.com/domains',
 		lastModified: '2017-01-03'
